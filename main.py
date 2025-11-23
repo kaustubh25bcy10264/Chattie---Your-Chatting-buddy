@@ -9,7 +9,7 @@ def chatbot():
         user_input = input("You: ").strip()
 
         if user_input.lower() in ["exit", "quit"]:
-            print("Chattie: Goodbye! Hope you enjoyed chatting with me ??")
+            print("Chattie: See you! Bye for now buddy! I will be waiting here for you, whenever you felt like you wanna talk, remember that your buddy is here waiting for you, always! Hope you enjoyed our chat...")
             break
 
         intent = get_intent(user_input)
