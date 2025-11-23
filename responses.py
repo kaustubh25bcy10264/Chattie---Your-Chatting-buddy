@@ -1,7 +1,7 @@
 ﻿"""
 Response module.
-This file stores what the bot should say for each intent.
-Some replies are fixed, some are dynamic (like time, jokes, calculator).
+This file is storing everything what the Chatbot should say for each intent.
+Some replies of Chatbot Chattie- the chatting buddy, are fixed, while some? are dynamic (like time, jokes, calculator etc etc).
 """
 
 import datetime
@@ -50,4 +50,4 @@ def get_response(intent: str, user_input: str = "") -> str:
                 "that usually need human intelligence. In this chatbot, we use spaCy NLP "
                 "to detect intent and respond accordingly.")
     
-    return "Hmm 🤔, I didn’t quite get that. Could you rephrase?"
+    return "Hmm 🤔, I didn’t quite get that. Could you just rephrase that for me?"
